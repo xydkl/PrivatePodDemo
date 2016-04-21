@@ -16,6 +16,11 @@
 		075BFE611CC9064100EB30F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075BFE5F1CC9064100EB30F1 /* LaunchScreen.storyboard */; };
 		075BFE6C1CC9064100EB30F1 /* PrivatePod_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075BFE6B1CC9064100EB30F1 /* PrivatePod_DemoTests.m */; };
 		075BFE771CC9064100EB30F1 /* PrivatePod_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075BFE761CC9064100EB30F1 /* PrivatePod_DemoUITests.m */; };
+		075BFE911CC9087200EB30F1 /* PrivatePod.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 075BFE901CC9087200EB30F1 /* PrivatePod.h */; };
+		075BFE931CC9087200EB30F1 /* PrivatePod.m in Sources */ = {isa = PBXBuildFile; fileRef = 075BFE921CC9087200EB30F1 /* PrivatePod.m */; };
+		075BFE981CC9089F00EB30F1 /* PrivatePodStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075BFE971CC9089F00EB30F1 /* PrivatePodStoryboard.storyboard */; };
+		075BFE9C1CC90BBF00EB30F1 /* PrivatePodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075BFE9B1CC90BBF00EB30F1 /* PrivatePodViewController.m */; };
+		075BFE9D1CC90BBF00EB30F1 /* PrivatePodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075BFE9B1CC90BBF00EB30F1 /* PrivatePodViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		075BFE8C1CC9087200EB30F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				075BFE911CC9087200EB30F1 /* PrivatePod.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		075BFE4B1CC9064100EB30F1 /* PrivatePod-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PrivatePod-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		075BFE4F1CC9064100EB30F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +71,13 @@
 		075BFE721CC9064100EB30F1 /* PrivatePod-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PrivatePod-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		075BFE761CC9064100EB30F1 /* PrivatePod_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivatePod_DemoUITests.m; sourceTree = "<group>"; };
 		075BFE781CC9064100EB30F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075BFE8E1CC9087200EB30F1 /* libPrivatePod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPrivatePod.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		075BFE901CC9087200EB30F1 /* PrivatePod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivatePod.h; sourceTree = "<group>"; };
+		075BFE921CC9087200EB30F1 /* PrivatePod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivatePod.m; sourceTree = "<group>"; };
+		075BFE971CC9089F00EB30F1 /* PrivatePodStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PrivatePodStoryboard.storyboard; sourceTree = "<group>"; };
+		075BFE991CC90B3400EB30F1 /* PrivatePod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivatePod.h; sourceTree = "<group>"; };
+		075BFE9A1CC90BBF00EB30F1 /* PrivatePodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivatePodViewController.h; sourceTree = "<group>"; };
+		075BFE9B1CC90BBF00EB30F1 /* PrivatePodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivatePodViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,15 +102,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		075BFE8B1CC9087200EB30F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		075BFE421CC9064100EB30F1 = {
 			isa = PBXGroup;
 			children = (
+				075BFE891CC907E100EB30F1 /* PrivatePod */,
 				075BFE4D1CC9064100EB30F1 /* PrivatePod-Demo */,
 				075BFE6A1CC9064100EB30F1 /* PrivatePod-DemoTests */,
 				075BFE751CC9064100EB30F1 /* PrivatePod-DemoUITests */,
+				075BFE8F1CC9087200EB30F1 /* PrivatePod */,
 				075BFE4C1CC9064100EB30F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +130,7 @@
 				075BFE4B1CC9064100EB30F1 /* PrivatePod-Demo.app */,
 				075BFE671CC9064100EB30F1 /* PrivatePod-DemoTests.xctest */,
 				075BFE721CC9064100EB30F1 /* PrivatePod-DemoUITests.xctest */,
+				075BFE8E1CC9087200EB30F1 /* libPrivatePod.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +176,27 @@
 				075BFE781CC9064100EB30F1 /* Info.plist */,
 			);
 			path = "PrivatePod-DemoUITests";
+			sourceTree = "<group>";
+		};
+		075BFE891CC907E100EB30F1 /* PrivatePod */ = {
+			isa = PBXGroup;
+			children = (
+				075BFE971CC9089F00EB30F1 /* PrivatePodStoryboard.storyboard */,
+				075BFE991CC90B3400EB30F1 /* PrivatePod.h */,
+				075BFE9A1CC90BBF00EB30F1 /* PrivatePodViewController.h */,
+				075BFE9B1CC90BBF00EB30F1 /* PrivatePodViewController.m */,
+			);
+			name = PrivatePod;
+			path = ../PrivatePod;
+			sourceTree = "<group>";
+		};
+		075BFE8F1CC9087200EB30F1 /* PrivatePod */ = {
+			isa = PBXGroup;
+			children = (
+				075BFE901CC9087200EB30F1 /* PrivatePod.h */,
+				075BFE921CC9087200EB30F1 /* PrivatePod.m */,
+			);
+			path = PrivatePod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +255,23 @@
 			productReference = 075BFE721CC9064100EB30F1 /* PrivatePod-DemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		075BFE8D1CC9087200EB30F1 /* PrivatePod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075BFE941CC9087200EB30F1 /* Build configuration list for PBXNativeTarget "PrivatePod" */;
+			buildPhases = (
+				075BFE8A1CC9087200EB30F1 /* Sources */,
+				075BFE8B1CC9087200EB30F1 /* Frameworks */,
+				075BFE8C1CC9087200EB30F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivatePod;
+			productName = PrivatePod;
+			productReference = 075BFE8E1CC9087200EB30F1 /* libPrivatePod.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +292,9 @@
 						CreatedOnToolsVersion = 7.3;
 						TestTargetID = 075BFE4A1CC9064100EB30F1;
 					};
+					075BFE8D1CC9087200EB30F1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 				};
 			};
 			buildConfigurationList = 075BFE461CC9064100EB30F1 /* Build configuration list for PBXProject "PrivatePod-Demo" */;
@@ -237,6 +313,7 @@
 				075BFE4A1CC9064100EB30F1 /* PrivatePod-Demo */,
 				075BFE661CC9064100EB30F1 /* PrivatePod-DemoTests */,
 				075BFE711CC9064100EB30F1 /* PrivatePod-DemoUITests */,
+				075BFE8D1CC9087200EB30F1 /* PrivatePod */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				075BFE611CC9064100EB30F1 /* LaunchScreen.storyboard in Resources */,
+				075BFE981CC9089F00EB30F1 /* PrivatePodStoryboard.storyboard in Resources */,
 				075BFE5E1CC9064100EB30F1 /* Assets.xcassets in Resources */,
 				075BFE591CC9064100EB30F1 /* Main.storyboard in Resources */,
 			);
@@ -277,6 +355,7 @@
 				075BFE531CC9064100EB30F1 /* AppDelegate.m in Sources */,
 				075BFE5C1CC9064100EB30F1 /* PrivatePod_Demo.xcdatamodeld in Sources */,
 				075BFE501CC9064100EB30F1 /* main.m in Sources */,
+				075BFE9C1CC90BBF00EB30F1 /* PrivatePodViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +372,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				075BFE771CC9064100EB30F1 /* PrivatePod_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075BFE8A1CC9087200EB30F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075BFE9D1CC90BBF00EB30F1 /* PrivatePodViewController.m in Sources */,
+				075BFE931CC9087200EB30F1 /* PrivatePod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +571,24 @@
 			};
 			name = Release;
 		};
+		075BFE951CC9087200EB30F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		075BFE961CC9087200EB30F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -502,6 +608,7 @@
 				075BFE7D1CC9064100EB30F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		075BFE7E1CC9064100EB30F1 /* Build configuration list for PBXNativeTarget "PrivatePod-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,12 +617,22 @@
 				075BFE801CC9064100EB30F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		075BFE811CC9064100EB30F1 /* Build configuration list for PBXNativeTarget "PrivatePod-DemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				075BFE821CC9064100EB30F1 /* Debug */,
 				075BFE831CC9064100EB30F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075BFE941CC9087200EB30F1 /* Build configuration list for PBXNativeTarget "PrivatePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075BFE951CC9087200EB30F1 /* Debug */,
+				075BFE961CC9087200EB30F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

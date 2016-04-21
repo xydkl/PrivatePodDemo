@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PrivatePod.h"
 
 @interface ViewController ()
 
@@ -17,11 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)tapBtn:(UIButton *)sender {
+    PrivatePodViewController *PPVC = [[UIStoryboard storyboardWithName:@"PrivatePodStoryboard" bundle:nil] instantiateViewControllerWithIdentifier:@"PrivatePodViewController"];
+    
+    [self presentViewController:PPVC animated:YES completion:^{
+        
+    }];
+}
 @end
